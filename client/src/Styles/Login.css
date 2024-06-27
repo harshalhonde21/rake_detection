@@ -1,55 +1,69 @@
-.login-form{
-    border: 1px solid red;
-    padding: 2rem;
+.login-form {
+  /* border: 1px solid red; */
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 90vh;
 }
-.input-icon{
-   display: flex;
-   gap: 2rem;
-   margin: 3rem ;
-   align-items: center;
-}
-.icon{
+.login-form h2{
     font-size: 3rem;
+    font-family: system-ui;
 }
-.input-icon input{
-    padding: 0.8rem 0.5rem;
-    font-size: 1.12rem;
-    outline: none;
-
+.input-icon {
+  display: flex;
+  gap: 2rem;
+  margin: 3rem;
+  align-items: center;
+  width: 25rem;
 }
-.input-icon input::placeholder{
-    /* padding: 0.8rem 0.5rem;colo */
-    color: black;
-    font-size: 1.12rem;
+.icon {
+  font-size: 3rem;
 }
-.btns{
-    display: flex;
-    justify-content: space-around;
-    
+.input-icon input {
+  padding: 0.8rem 0.5rem;
+  font-size: 1.12rem;
+  outline: none;
+  width: 100%;
 }
-.btns input{
-    padding: 1rem 2rem;
-    font-size: 1.2rem;
-    border-radius: 2rem;
-    border: 01px solid;
-    font-weight: bold;
-    color: aliceblue;
-    cursor: pointer;
-    margin-top: 1rem;
+.input-icon input::placeholder {
+  /* padding: 0.8rem 0.5rem;colo */
+  color: black;
+  font-size: 1.12rem;
 }
-.btns input:first-child{
-    background-color: #08b608;
-    
+.btns {
+  display: flex;
+  justify-content: space-around;
 }
-.btns input:first-child:hover{
-    background-color: #118e11;
-    
+.btns input {
+  padding: 1rem 2rem;
+  font-size: 1.2rem;
+  border-radius: 2rem;
+  border: 01px solid;
+  font-weight: bold;
+  color: aliceblue;
+  cursor: pointer;
+  margin-top: 1rem;
 }
-.btns input:last-child{
-    background-color: rgb(232, 71, 42);
-    
+.btns input:first-child {
+  background-color: #08b608;
 }
-.btns input:last-child:hover{
-    background-color: rgb(183, 47, 23);
-    
+.btns input:first-child:hover {
+  background-color: #118e11;
 }
+.btns input:last-child {
+  background-color: rgb(232, 71, 42);
+}
+.btns input:last-child:hover {
+  background-color: rgb(183, 47, 23);
+}
+.svg1{
+    position: fixed;
+    top: 0;
+  }
+  .svg2{
+    position: fixed;
+    right: -165px;
+    bottom: -118px;
+  }
