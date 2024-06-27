@@ -1,5 +1,9 @@
+body{
+  font-family: "Poppins";
+}
+
+
 .login-form {
-  /* border: 1px solid red; */
   padding: 2rem;
   display: flex;
   flex-direction: column;
@@ -9,7 +13,7 @@
 }
 .login-form h2{
     font-size: 3rem;
-    font-family: system-ui;
+    font-family: "Poppins";
 }
 .input-icon {
   display: flex;
@@ -26,11 +30,12 @@
   font-size: 1.12rem;
   outline: none;
   width: 100%;
+  font-family: "Poppins";
 }
 .input-icon input::placeholder {
-  /* padding: 0.8rem 0.5rem;colo */
   color: black;
   font-size: 1.12rem;
+  font-family: "Poppins";
 }
 .btns {
   display: flex;
