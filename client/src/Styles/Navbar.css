@@ -1,9 +1,20 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.logo{
+    font-family: "Poppins";
+    font-size: 1.3rem;
+}
+
 .navbar{
     display: flex;
+    justify-content: space-between;
     height: 5rem;
     color: aliceblue;
     background-color: #578DBE;
-    /* justify-content: space-around; */
     align-items: center;
     gap: 2rem;
     padding: 0rem 5rem;
@@ -17,5 +28,9 @@
     color: black;
     border-radius: 50%;
     padding: 7px;
+}
 
+.icons-container{
+    display: flex;
+    gap: 1.52rem;
 }
