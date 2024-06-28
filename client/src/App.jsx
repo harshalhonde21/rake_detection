@@ -6,6 +6,7 @@ import Login from "./pages/Login.jsx";
 import Navbar from "./components/Navbar.jsx";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Svg from "./components/Svg.jsx";
+import RakeForm from "./pages/RakeForm.jsx";
 
 function App() {
   return (
@@ -15,7 +16,9 @@ function App() {
       <Navbar />
       {/* <Svg/> */}
         <Routes>
-          <Route index element={<Login />} />
+          <Route path="/login" element={<Login />} />
+          <Route index element={<RakeForm />} />
+
         </Routes>
       
       </BrowserRouter>

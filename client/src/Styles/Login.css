@@ -59,11 +59,12 @@
   background-color: rgb(183, 47, 23);
 }
 .svg1{
-    position: fixed;
-    top: 0;
+  position: absolute;
+  top: 0;
+  z-index: -10;
   }
   .svg2{
-    position: fixed;
-    right: -165px;
-    bottom: -118px;
+    position: absolute;
+    right: 0px;
+    bottom: -4px;
   }
