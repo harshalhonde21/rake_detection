@@ -2,11 +2,11 @@ import "./App.css";
 import Login from "./pages/Login.jsx";
 import Navbar from "./components/Navbar.jsx";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-<<<<<<< HEAD
 import Svg from "./components/Svg.jsx";
 import RakeForm from "./pages/RakeForm.jsx";
-=======
->>>>>>> 73c0915c49fef4e3224888984f12bb0b31473e4c
+import Table from "./pages/Table.jsx";
+import UpdateTable from "./pages/UpdateTable.jsx";
+
 
 function App() {
   return (
@@ -15,7 +15,10 @@ function App() {
         <Navbar />
         <Routes>
           <Route path="/login" element={<Login />} />
-          <Route index element={<RakeForm />} />
+          <Route path="/form" element={<RakeForm />} />
+          <Route path="/table" element={<Table />} />
+          <Route index element={<UpdateTable />} />
+
 
         </Routes>
       </BrowserRouter>

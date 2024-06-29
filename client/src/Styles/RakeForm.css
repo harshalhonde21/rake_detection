@@ -25,7 +25,7 @@ flex-direction: column;
 .rake-form span {
     width: 50%;
     font-size: x-large;
-    font-family: system-ui;
+    /* font-family: system-ui; */
     font-weight: 500;
     opacity: 0.95;
 }
@@ -57,7 +57,7 @@ flex-direction: column;
     text-transform: uppercase;
     color: aliceblue;
     text-align: center;
-    font-family: system-ui;
+    /* font-family: system-ui;/ */
     font-weight: 600;
     cursor: pointer;
 }
