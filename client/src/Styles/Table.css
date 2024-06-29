@@ -1,0 +1,31 @@
+.table {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 0rem;
+}
+.table table {
+  border: 1px solid black;
+  border-collapse: collapse;
+}
+
+.table table tr th {
+  border: solid 1px #aaa999;
+  padding: 15px 25px;
+  text-align: center;
+  border-collapse: collapse;
+}
+.table table tr td {
+  border: solid 1px #aaa999;
+  /* color: #FFFFFF; */
+  text-align: center;
+  border-collapse: collapse;
+  padding: 5px 10px;
+}
+
+.table table tr td button {
+  padding: 7px 15px;
+  border-radius: 2rem;
+  border: none;
+  background-color: rgb(68, 168, 68);
+  /* color: aliceblue; */
+}
