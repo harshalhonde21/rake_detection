@@ -1,0 +1,32 @@
+.update-table {
+    display: flex;
+    justify-content: center;
+    margin: 2rem 0rem;
+  }
+  .update-table table {
+    border: 1px solid black;
+    border-collapse: collapse;
+  }
+  
+  .update-table table tr th {
+    border: solid 1px #aaa999;
+    padding: 15px 25px;
+    text-align: center;
+    border-collapse: collapse;
+  }
+  .update-table table tr td {
+    border: solid 1px #aaa999;
+    /* color: #FFFFFF; */
+    text-align: center;
+    border-collapse: collapse;
+    padding: 25px ;
+  }
+  
+  .update-table table tr td button {
+    padding: 7px 15px;
+    border-radius: 2rem;
+    border: none;
+    background-color: rgb(68, 168, 68);
+    /* color: aliceblue; */
+  }
+  

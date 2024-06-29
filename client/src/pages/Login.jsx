@@ -1,6 +1,7 @@
 import { FaUser } from "react-icons/fa6";
 import { FaLock } from "react-icons/fa6";
 import "../Styles/Login.css";
+import Svg from "../components/Svg"
 export default function Login() {
   return (
     <>
@@ -27,7 +28,7 @@ export default function Login() {
           </div>
         </form>
       </div>
-      <div className="svg1">
+      {/* <div className="svg1">
         <svg width="500" height="400">
           <ellipse cx="60" cy="150" rx="180" ry="180" fill="#578DBE" />
         </svg>
@@ -37,7 +38,8 @@ export default function Login() {
         <svg width="500" height="400">
           <ellipse cx="280" cy="250" rx="210" ry="180" fill="#578DBE" />
         </svg>
-      </div>
+      </div> */}
+      <Svg/>
     </>
   );
 }
