@@ -1,28 +1,28 @@
-.Update-table {
+.update-table {
     display: flex;
     justify-content: center;
     margin: 2rem 0rem;
   }
-  table {
+  .update-table table {
     border: 1px solid black;
     border-collapse: collapse;
   }
   
-  table tr th {
+  .update-table table tr th {
     border: solid 1px #aaa999;
     padding: 15px 25px;
     text-align: center;
     border-collapse: collapse;
   }
-  table tr td {
+  .update-table table tr td {
     border: solid 1px #aaa999;
     /* color: #FFFFFF; */
     text-align: center;
     border-collapse: collapse;
-    padding: 5px 10px;
+    padding: 25px ;
   }
   
-  table tr td button {
+  .update-table table tr td button {
     padding: 7px 15px;
     border-radius: 2rem;
     border: none;

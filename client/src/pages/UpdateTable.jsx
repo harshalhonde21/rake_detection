@@ -12,27 +12,62 @@ export default function UpdateTable() {
             <th rowSpan={2}>WT3</th>
             <th rowSpan={2}>WT4</th>
 
-            <th rowSpan={2}>REASON FOR DELAY/LESS UNLOADING</th>
-            {/* <th>DOWNTIME ANALYSIS</th> */}
-            <tr >
-              <th>DOWNTIME ANALYSIS</th>
-            
-
-            </tr>
+            <th rowSpan={2} colSpan={4}>
+              REASON FOR DELAY/LESS UNLOADING
+            </th>
+            <th colSpan={3}>DOWNTIME ANALYSIS</th>
           </tr>
+          <tr>
+            <th>DEECT TIME</th>
+            <th>SYSTEM START TIME</th>
+            <th>TOTAL TIME</th>
+          </tr>
+          <tr>
+            <td>
+              <b>
+                FIRST WAGON <br /> UNLOADED DATE & TIME
+              </b>
+            </td>
+            <td colSpan={4}></td>
+            <td colSpan={4}></td>
+            <td></td>
+            <td></td>
 
-          {[...Array(20)].map((x, i) => (
+            <td></td>
+          </tr>
+          {[...Array(10)].map((x, i) => (
             // <ObjectRow key={i} />
             <tr>
-              <td>{i + 1}</td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
-              <td></td>
+              <td ><b>{i + 1} Hr</b></td>
+              <td ></td>
+              <td ></td>
+              <td ></td>
+              <td ></td>
+              <td  colSpan={4}></td>
+              <td ></td>
+              <td ></td>
+              <td ></td>
             </tr>
           ))}
+          <tr>
+            <td rowSpan={2}><b>RELEASE <br /> DATE/TIME</b></td>
+            <td rowSpan={2} colSpan={4}></td>
+            <td colSpan={4}><b>DETENTION HRS.:</b></td>
+            <td></td>
+            <td></td>
+            <td></td>
+          </tr>
+          <tr>
+            <td colSpan={4}><b>DEMURRAGE HRS.</b></td>
+
+            <td colSpan={3}></td>
+          </tr>
+          <tr >
+
+            <td ><b>REMARKS(IF ANY)</b></td>
+            <td colSpan={11} ></td>
+
+          </tr>
         </table>
       </div>
     </>
